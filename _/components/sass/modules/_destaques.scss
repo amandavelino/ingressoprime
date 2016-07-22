@@ -1,0 +1,84 @@
+/* Destaques */
+	
+#destaques
+{
+	background: $color-main-light;
+	text-align: center;
+	margin: 135px 0 10px;
+	padding: 0;
+
+	.destaque
+	{
+		width: 21%;
+		padding: 1.5% 1.5% 1%;
+		display: inline-block;
+
+	   	//960px
+		@include breakpoint(max-width ($tablet-land - 1)) {
+			padding: 1.5% 0 1%;
+	   	} 
+
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
+			width: 48%;
+	   	}   
+
+	   	@include breakpoint(max-width ($mobile-land - 1)) {
+	   		width: 100%;
+	   	}	   		   	
+
+		a 
+		{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		img 
+		{
+			float: left;
+			margin-right: 10px;
+			margin-top: -5px;
+
+			// < 1260px
+			@include breakpoint(max-width 1260px) {
+				float: none;
+				margin: 0;
+		   	}
+
+		}
+
+		h3 
+		{
+			color: #222; //verde icon: #30a592, #555, $color-hover-red
+			font-family: $font-menu;
+			font-size: $font-size-base * 1.4;
+			font-weight: $font-weight-base * 4;
+			text-transform: uppercase;
+			line-height: 1em;
+			text-align: left;
+
+			// < 1260px
+			@include breakpoint(max-width 1260px) {
+				text-align: center;
+		   	}
+
+		}	
+
+		p 
+		{
+			font-size: $font-size-base * 1.4;
+			color: $color-eventos-h4;
+			font-weight: $font-weight-base * 5;
+			text-align: left;
+
+			// < 1260px
+			@include breakpoint(max-width 1260px) {
+				text-align: center;
+		   	}
+
+		}					
+
+	}
+
+}

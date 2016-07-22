@@ -1,0 +1,135 @@
+#filtrar
+{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	background: rgba(255,255,255,.98);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	display: none;	
+
+	.content 
+	{
+		padding: 7em 0;
+	}
+
+	.close-filtrar
+	{
+		cursor: pointer;
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width: 25px;
+
+		img 
+		{
+			max-width: 100%;
+		}
+	}
+
+	form 
+	{
+
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		//border-right: 1px solid #8bade4;
+
+		select 
+		{
+			background: url("../imgs/arrow-down-select.png") no-repeat 97% 50%;
+			font-size: $font-size-base * 4;
+			font-weight: 700;
+			line-height: 1em;				
+			color: #111;
+			padding: 15px;
+			border: 0 none;
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+			outline: none;
+			-webkit-appearance: none;
+			appearance: none;
+
+		   	//960px
+			@include breakpoint(max-width ($tablet-land - 1)) {
+				font-size: ($font-size-base * 3)!important;
+		   	}   
+
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				font-size: ($font-size-base * 2)!important;
+		   	}   
+
+		   	//480px
+		   	@include breakpoint(max-width ($mobile-land - 1)) {
+				font-size: ($font-size-base * 2)!important;
+		   	}					
+		}
+
+		.buscar 
+		{
+			display: none;
+		}
+
+		//select customizado
+
+			.customSelect { 
+
+				/* This is the default class that is used */
+				/* Put whatever custom styles you want here */
+				background: url("../imgs/arrow-down.png") no-repeat 98% 50%;
+				font-size: $font-size-base * 4;
+				font-weight: 700;
+				line-height: 1em;				
+				color: #111;
+				padding: 15px;
+				border: 1px solid #ccc;
+				width: 90%;
+
+			   	//960px
+				@include breakpoint(max-width ($tablet-land - 1)) {
+					font-size: $font-size-base * 3;
+			   	}   
+
+			   	//768px
+				@include breakpoint(max-width ($tablet-port - 1)) {
+					font-size: $font-size-base * 2;
+			   	}   
+
+			   	//480px
+			   	@include breakpoint(max-width ($mobile-land - 1)) {
+					font-size: $font-size-base * 2;
+			   	}	
+
+			}
+
+			.customSelect.customSelectHover {
+			/* Styles for when the select box is hovered */
+			}
+
+			.customSelect.customSelectOpen {
+			/* Styles for when the select box is open */
+			}
+
+			.customSelect.customSelectFocus {
+			/* Styles for when the select box is in focus */
+			}
+
+			.customSelect.customSelectDisabledOption {
+			/* Styles for when the selected item is a disabled one */
+			}
+
+			.customSelect.customSelectDisabled {
+			/* Styles for when the select box itself is disabled */
+			}
+
+			.customSelectInner {
+				/* You can style the inner box too */
+				width: 100%;
+			}	
+
+	}
+
+}

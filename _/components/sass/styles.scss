@@ -1,0 +1,35 @@
+//Compass
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/transition";
+@import "compass/css3/opacity";
+@import "compass/css3/transform";
+@import "compass/css3/user-interface";
+
+//susy | breakpoint
+@import "susy";
+@import "breakpoint";
+
+//Fonts 
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:200,300,400,500,700,800);
+
+//Core partials
+@import "variables";
+@import "mixins";
+@import "layout";
+@import "animate";
+
+//Core modules - sessoes/paginas do site
+@import "modules/ie";
+@import "modules/redes_sociais";
+@import "modules/header";
+@import "modules/menu-mobile";
+@import "modules/owl.carousel";
+@import "modules/destaques";
+@import "modules/banner";
+@import "modules/eventos";
+@import "modules/infoEventos";
+@import "modules/filtrar";
+@import "modules/procurar";
+@import "modules/imprimirVoucher";
+@import "modules/footer";

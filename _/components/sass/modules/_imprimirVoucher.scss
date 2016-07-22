@@ -1,0 +1,133 @@
+%btn 
+{
+	background-color: $bg-color-btn;
+	color: #fff;
+	cursor: pointer;
+	font-family: $font-main;
+	font-size: $font-size-base * 1.3;
+	padding: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: $font-weight-base * 7;
+	letter-spacing: 1px; 
+
+	@include transition(all, .5s, ease-out, 0s);
+}
+
+%btn:hover 
+{
+	background-color: $color-menu-hover;
+}
+
+#imprimir
+{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	background: rgba(255,255,255,.98);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	display: none;	
+
+	.content 
+	{
+		padding: 7em 0;
+	}
+
+	.close-imprimir
+	{
+		cursor: pointer;
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width: 25px;
+
+		img 
+		{
+			max-width: 100%;
+		}
+	}
+
+	form 
+	{
+
+		label,
+		fieldset
+		{
+			@include span(6 of 12);
+			display: block;
+
+		   	//480px
+		   	@include breakpoint(max-width ($mobile-land - 1)) {
+				@include span(12 of 12);
+		   	}		   	
+
+		}
+
+		input 
+		{
+			border: none;
+			border-bottom: 1px solid #ccc;
+			background: transparent;
+			margin: 0;
+			padding: .1em 0;
+			font-size: $font-size-base * 6;
+			font-weight: 700;
+			line-height: 1em;
+			letter-spacing: 0px;
+			height: 80px;
+			box-shadow: none;
+			outline: 0;
+			color: #111;
+			width: 100%;
+			-webkit-appearance: none;
+			-webkit-box-shadow: none;	
+
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				font-size: $font-size-base * 3;
+				height: 45px;
+		   	}   
+
+		   	//480px
+		   	@include breakpoint(max-width ($mobile-land - 1)) {}		   	
+
+		}
+
+		.getVoucher
+		{
+			
+			display: none;
+			@extend %btn;
+			width: 60%;
+			font-size: $font-size-base * 2.5;
+			padding: 1em 0;
+			line-height: $font-size-base * 2.5;
+			margin-top: 1em;
+			letter-spacing: 0;
+			height: auto;
+
+		   	//960px
+			@include breakpoint(max-width ($tablet-land - 1)) {
+				font-size: $font-size-base * 1.8;
+				padding: 1em .5em;
+		   	} 	
+
+			//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				width: 100%;
+		   	}  	
+
+		   	@include breakpoint(max-width ($mobile-land - 1)){
+				font-size: $font-size-base * 1.6;
+				padding: 1em;
+				letter-spacing: 1px;		   		
+		   	}
+		   			
+		}
+
+	}
+
+}

@@ -1,0 +1,142 @@
+body,
+html
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-width: 300px;
+}
+
+body
+{
+	background: #f1f1f1;
+	color: #666;
+	overflow-x: hidden;
+
+	font-size:		$font-size-base * 1.4;
+	font-family:	$font-main;
+	font-weight:	$font-weight-base * 4;
+	line-height:	$font-size-base * 1.4;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+#{headings()}{
+	font-size:		$font-size-base * 3;
+	line-height:	$font-size-base * 1.6;
+	font-weight:	$font-weight-base * 4;
+	margin:			0;
+}
+
+p 
+{
+	font-weight:	$font-weight-base * 4;
+	font-size:		1.2em;
+	line-height:	1.2em;
+	margin:			0 0 1em;
+}
+
+a 
+{
+	text-decoration: none;
+	outline: none;
+	@include transition(all, .5s, ease-out, 0s);
+}
+
+.wrap 
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+section 
+{
+	padding: ($font-size-base * 5) 0;
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.hide 
+{
+	display: none;
+}
+
+.container 
+{
+	@include container;
+
+	.content
+	{
+		@include span (12 of 12 nest);
+	}
+
+	//1200px
+	@include breakpoint(max-width $desktop) {
+		width: $tablet-land - 20;
+   	}
+
+   	//960px
+	@include breakpoint(max-width ($tablet-land - 1)) {
+		width: $tablet-port - 20;
+   	}   
+
+   	//768px
+	@include breakpoint(max-width ($tablet-port - 1)) {
+		width: $mobile-land - 20;
+   	}      		
+
+   	//480px
+   	@include breakpoint(max-width ($mobile-land - 1)) {
+   		width: $mobile-port - 20;
+   	}
+
+   	//320px
+	@include breakpoint(max-width ($mobile-port - 1)) {
+   		width: $mobile-port - 50;
+   	}	   	
+
+}
+//barra de loading...
+
+	.pace {
+	  -webkit-pointer-events: none;
+	  pointer-events: none;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  user-select: none;
+	}
+
+	.pace-inactive {
+	  display: none;
+	}
+
+	.pace .pace-progress {
+	  background: $color-menu-hover;
+	  position: fixed;
+	  z-index: 99999;
+	  top: 0;
+	  left: 0;
+	  margin-top: 0;
+	  width: 100%;
+	  height: 2px;
+	}
+
+	 .pre-con
+	{
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 9990;
+	    background: #fff;
+	    @include transition(all, .5s, ease-out, 0s);
+	}     
+
+	.pace-done .pre-con
+	{
+	   @include opacity(0);
+	   z-index: 0;
+	} 

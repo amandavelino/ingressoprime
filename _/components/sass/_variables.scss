@@ -1,0 +1,57 @@
+//fontes
+$font-main: 'Raleway', Arial, Tahoma, sans-serif;
+$font-menu: "Oswald", Helvetica, sans-serif;
+$font-title-eventos: 'sifonnbasic', Arial, sans-serif;
+$font-size-base: 10px;
+$font-weight-base: 100;
+
+//bg cores
+$bg-color-main: #f1f1f1;
+$bg-header: #fff;
+$bg-color-btn: #cf0000;
+$bg-color-dark: #141414;
+
+//texto cores
+$color-main-light: #fff;
+$color-main: #333;
+$color-menu-hover: #30a592; /* #16b6b3, verde icon: #30a592, azul marca: #4d7eac */
+$color-banner-h4: #ffe18e;
+$color-eventos-h4: #777;
+$color-eventos-p: #222;
+$color-infoEventos-p: #666;
+$color-infoEventos-p-light: #ccc;
+$color-hover-red: #d64a27;
+//tamanhos de telas
+$desktop: 1200px; //ou maior
+$tablet-land: 960px;
+$tablet-port: 768px;
+$mobile-land: 480px;
+$mobile-port: 320px;
+
+//padding
+$padding: 30px;
+
+//susy
+
+  $susy:(
+
+	  flow: ltr,
+	  math: fluid,
+      output: float,
+      gutter-position: split, //margem centralizada
+      container: 1200px, // largura do container
+      container-position: center,
+      container-style: static,
+      columns: 12, // num de colunas do grid
+      gutter-width: $padding,
+      column-width: 100px,
+      global-box-sizing: content-box,
+	  last-flow: to,
+      grid-padding: 0px,
+      debug: (
+  	    image: hide, //hide | show
+  	    color: rgba(#5c89b7, .5),
+  	    output: background,
+  	    toggle: top right
+    	)
+  );

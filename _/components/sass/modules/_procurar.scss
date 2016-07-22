@@ -1,0 +1,81 @@
+#procurar
+{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	background: rgba(255,255,255,.98);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	display: none;	
+
+
+	.content 
+	{
+		padding: 7em 0;
+	}
+
+	.close-procurar
+	{
+		cursor: pointer;
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width: 25px;
+
+		img 
+		{
+			max-width: 100%;
+		}
+	}
+
+	form 
+	{
+
+		input 
+		{
+			border: none;
+			border-bottom: 1px solid #ccc;
+			background: transparent;
+			margin: 0;
+			padding: 15px;
+			font-size: $font-size-base * 4;
+			font-weight: 700;
+			line-height: 1em;
+			letter-spacing: 0px;
+			//height: 95px;
+			box-shadow: none;
+			outline: 0;
+			color: #111;
+			width: 100%;
+			-webkit-appearance: none;
+			-webkit-box-shadow: none;	
+
+		   	//960px
+			@include breakpoint(max-width ($tablet-land - 1)) {
+				font-size: $font-size-base * 6;
+		   	}   
+
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				font-size: $font-size-base * 5;
+				height: 80px;
+		   	}   
+
+		   	//480px
+		   	@include breakpoint(max-width ($mobile-land - 1)) {
+				font-size: $font-size-base * 3;
+				height: 45px;
+		   	}		   	
+
+		}
+
+		.buscar 
+		{
+			display: none;
+		}
+
+	}
+
+}
