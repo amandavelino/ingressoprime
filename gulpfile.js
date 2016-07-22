@@ -32,7 +32,7 @@ gulp.task('compass', function() {
 			css: '_/css',
 			sass: '_/components/sass',
 			image: '_/imgs',
-			style: 'expanded', //nested, expanded, compact, compressed
+			style: 'compressed', //nested, expanded, compact, compressed
 			require: ['susy','breakpoint']
 		})
 		.on('error', gutil.log))
