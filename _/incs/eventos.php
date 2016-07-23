@@ -1,6 +1,7 @@
 <section id="eventos" class="eventos">
 
-    <div class="container-full">
+    <!-- <div class="container-full"> -->
+    <div class="container">
 
         <div class="a-group filter-button-group">
           <ul>
@@ -14,6 +15,8 @@
         </div><!-- /filter-button-group -->
 
         <div class="grid">
+
+            <div class="grid-sizer"></div>
 
             <div class="grid-item destaques">
 
@@ -114,6 +117,31 @@
                 </div><!-- /evento -->                          
 
             </div><!--/ grid-item -->
+
+            <div class="grid-item verao">
+                
+                <div class="evento">
+                    
+                    <article>
+                                
+                        <figure>
+                            <div class="overlay">
+                                <p>Dia 08 de Julho a Arena Apipucos recebrá a festa Forró de Julho com as bandas Capim com Mel, Felipe & Gabriel, Manoel Netto, Tiago Giba, Felipe Barão, Trio Nós 4 e Trio Pé de Serra Intinerante.</p>
+                                <a href="#" class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</a>
+                            </div><!-- /overlay -->     
+                            <img src="imgs/temp/eventos/arraiaseuantonio.jpg" border="0" alt="Arriá de Seu Antônio">
+                            <figcaption>
+                                <h3>Arraiá de Seu Antônio</h3>
+                                <h4>Sex 10. Jun e Sáb 11 Jun</h4>   
+                                <h4>Recife - PE</h4>                            
+                            </figcaption>
+                        </figure>
+
+                    </article>
+
+                </div><!-- /evento -->                          
+
+            </div><!--/ grid-item -->            
 
         </div><!--/grid -->
 

@@ -6,10 +6,10 @@
         	<form action="#" method="get" accept-charset="utf-8" name="imprimir_voucher">
 
                 <label for="cpf">
-                    <input type="text" id="cpf" name="cpf" maxlength="14" autocomplete="off" autofocus>
+                    <input type="text" id="cpf" name="cpf" maxlength="14" autocomplete="off" placeholder="000.000.000-00" autofocus>
                 </label>
                 <label for="data_nascimento">
-                    <input type="text" id="data" name="data" maxlength="10" autocomplete="off" autofocus>
+                    <input type="text" id="data" name="data" maxlength="10" autocomplete="off" placeholder="00/00/0000">
                 </label>                
                 <fieldset>
                     <input type="submit" class="getVoucher btn" name="buscar" value=" imprimir voucher ">

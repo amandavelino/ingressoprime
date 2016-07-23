@@ -16,11 +16,12 @@ $(function(){
 			margin: 3,
 			responsive: {
 				0:   {items:1},
-				600: {items:2},
+				600: {items:1},
+				768: {items:2},
 				992: {items:3},
 				1200:{items:3}
 			},
-			navText: ["&laquo; evento anterior ","próximo evento &raquo;"]
+			navText: ["&laquo; anterior "," próximo &raquo;"]
 		});	
 
 	//filtro eventos
@@ -30,8 +31,9 @@ $(function(){
 		$grid.isotope({
 			itemSelector: '.grid-item',
 			layoutMode: 'fitRows',
+			percentPosition: true,
 			fitRows: {
-			  gutter: 0
+			  gutter: 5
 			}  
 		});
 
@@ -85,7 +87,7 @@ $(function(){
 
 	    function showDiv(div){
 			$(div).css({"z-index":9999}).fadeIn('fast');
-			$('body').css({"overflow":"hidden"});   	
+			//$('body').css({"overflow":"hidden"});   	
 	    }
 
 	    function hideDiv(div){
@@ -111,7 +113,7 @@ $(function(){
 
 			$("#filtrarEventos").click(function(){
 				showDiv("#filtrar");
-				$('body').css({"overflow":"hidden"});  
+				//$('body').css({"overflow":"hidden"});  
 				return false;
 			});    
 
@@ -122,10 +124,14 @@ $(function(){
 
 	    //imprimir voucher
 
-			$("#imprimirVoucher").click(function(){
+			$("#imprimirVoucher, #meusPedidos").click(function(){
 
-				$('body').css({"overflow":"hidden"});
-				$("#imprimir").css({"z-index":9999}).fadeIn('fast', function(){});//apareceu a div
+				//$('body').css({"overflow":"hidden"});
+				$("#imprimir").css({"z-index":9999}).fadeIn('fast', function(){
+
+					//mascara cpf
+
+				});//apareceu a div
 				
 				return false;
 			});    

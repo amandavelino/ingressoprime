@@ -140,3 +140,39 @@ section
 	   @include opacity(0);
 	   z-index: 0;
 	} 
+
+//resultado filtro, busca, etc
+
+.resultado 
+{
+	padding: 4em 0;
+
+	li 
+	{
+		list-style: inside square;
+	}
+
+	.item-resultado
+	{
+		margin-bottom: 2em;
+
+		a h4,
+		h4
+		{
+			font-size: $font-size-base * 2;
+			font-weight: 700;
+			color: #d64a27;
+			margin-bottom: .5em;
+		}
+
+		a h3,
+		h3
+		{
+			font-size: $font-size-base * 1.6;
+			font-weight: 600;
+			color: #222;
+		}		
+
+	}
+
+}

@@ -31,6 +31,7 @@
 		position: relative;
 		width: 100%;
 		overflow: hidden;
+		margin: 0 -2.5px;
 	}
 
 	.filter-button-group
@@ -41,9 +42,10 @@
 		ul
 		{
 			text-align: center;
-			padding: 0 20px;
+			padding: 0;
 			margin: 0;
-			list-style: none;		
+			list-style: none;	
+			overflow: hidden;	
 		}
 
 		li
@@ -140,30 +142,36 @@
 
 	.grid-item
 	{
-	    width: 25%;
-	    margin: 0;
+	    //width: 25%;
+	    width: 296px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
 	    padding: 0;
+	    overflow: hidden;
 
-		//1200px
-		@include breakpoint(max-width $desktop) {
-			width: 33.3333%;
-	   	}
+		//1215px
+		@include breakpoint(max-width (1215px)) {
+			width: 310px;
+	   	}	   	   	 	
+
+		//960px
+		@include breakpoint(max-width ($tablet-land - 1)) {
+			width: 370px;
+	   	}   
 
 	   	//768px
 		@include breakpoint(max-width ($tablet-port - 1)) {
-			width: 50%;
+			width: 100%;
 	   	}      		
 
-	   	@include breakpoint(max-width 600px) {
-	   		width: 100%;
-	   	}
-
+	   	//480px
 	   	@include breakpoint(max-width ($mobile-land - 1)) {
-	   		//@include span (12 of 12);
+	   		//width: 296px;
 	   	}
 
+	   	//320px
 		@include breakpoint(max-width ($mobile-port - 1)) {
-
+	   		//width: 296px;
 	   	}	   	
 
 	    article 
@@ -234,7 +242,7 @@
 
 			//960px
 			@include breakpoint(max-width ($tablet-land - 1)) {
-				padding: 1em;
+				padding: 3em;
 			} 
 
 			//600px
@@ -307,7 +315,7 @@
 				height: 60px;
 				overflow: hidden;
 				position: absolute;
-				width: 90%;
+				width: 91%;
 				left: 0;
 				bottom: 0;
 			}
