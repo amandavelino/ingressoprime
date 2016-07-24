@@ -3,7 +3,7 @@
     <div class="container">
         <div class="content">            
         	<p>Informe abaixo o seu CPF e Data de nascimento, e depois pressione a tecla enter.</p>
-        	<form action="#" method="get" accept-charset="utf-8" name="imprimir_voucher">
+        	<form action="#" method="get" accept-charset="utf-8" name="imprimir_voucher" name="imprimirVoucher">
 
                 <label for="cpf">
                     <input type="text" id="cpf" name="cpf" maxlength="14" autocomplete="off" placeholder="000.000.000-00" autofocus>
