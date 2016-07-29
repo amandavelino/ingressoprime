@@ -20,7 +20,7 @@
 
 	   	//768px
 		@include breakpoint(max-width ($tablet-port - 1)) {
-			width: 48%;
+			width: 100%;
 	   	}   
 
 	   	@include breakpoint(max-width ($mobile-land - 1)) {

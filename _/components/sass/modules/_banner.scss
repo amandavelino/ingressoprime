@@ -39,12 +39,24 @@
 		{
 			left: -50px;
 			background: url("../imgs/prev.png") no-repeat 0 0;
+
+			//< 1200px
+			@include breakpoint(max-width $desktop) {
+				left: 20px;
+		   	}
+
 		}
 
 		.owl-next
 		{
 			right: -50px;
 			background: url("../imgs/next.png") no-repeat 0 0;
+
+			//< 1200px
+			@include breakpoint(max-width $desktop) {
+				right: 20px;
+		   	}
+
 		}
 
 		*:hover
