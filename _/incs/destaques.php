@@ -22,14 +22,6 @@
 			<h3>Procurar</h3>
 			<p>Localizar eventos</p>
 		</a>
-	</div><!-- /destaque -->	
-
-	<div class="destaque">
-		<a href="javascript: void();" title="Entre em contato">
-			<img src="imgs/icons/contato.png" width="40" border="0">
-			<h3>(81) 3039.4082</h3>
-			<p>contato@ingressoprime.com.br</p>
-		</a>
 	</div><!-- /destaque -->			
 
 </section>

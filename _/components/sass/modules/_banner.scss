@@ -13,22 +13,38 @@
 
 	.owl-nav
 	{
-		background: #fff;
 		text-align: center;
-		padding: 1em 0;
-		margin-top: 3px;
+		margin-top: -16px;
+		position: absolute;
+		top: 50%;
+		z-index: 90;
+		width: 100%;
 
 		*
 		{
 			color: $color-main;
 			display: inline-block;
 			font-size: $font-size-base * 1.1;
-			margin-right: 10px;
 			font-weight: $font-weight-base * 8;
 			text-transform: uppercase;
-			//letter-spacing: 1px;
+			position: absolute;
+			width: 32px;
+			height: 32px;
+			text-indent: -9999px;
 
 			@include transition(all, .5s, ease-in, 0s);
+		}
+
+		.owl-prev
+		{
+			left: -50px;
+			background: url("../imgs/prev.png") no-repeat 0 0;
+		}
+
+		.owl-next
+		{
+			right: -50px;
+			background: url("../imgs/next.png") no-repeat 0 0;
 		}
 
 		*:hover
@@ -114,7 +130,13 @@
 				line-height: 1.4em;
 		   	} 
 
-		}						
+		}	
+
+		.btn-banner
+		{
+			display: block;
+			@include transition(all, .5s, ease-in, 0s);
+		}					
 
 		.infoEvento
 		{

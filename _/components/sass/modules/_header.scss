@@ -5,7 +5,7 @@
 	height: 70px;
 	position: relative;
 	//padding: ($padding / 2) 0;
-	padding: 40px 0 0;
+	padding: 50px 0 0;
 	position: fixed;
 	top: 0;
 	z-index: 99;
@@ -98,16 +98,20 @@
 			//letter-spacing: 2px;
 			position: relative;
 
+			&.active 
+			{
+				color: $color-menu-hover !important;
+			}
+
 			&:before,
 			&:after,
 			&.active:before,
 			&.active:after
 			{
-				color: $color-menu-hover;
 				position: absolute;
 				top: 0;
 				line-height: 1.3em;	
-				//color: $color-hover-red;
+				color: $color-menu-hover;
 				font-weight: $font-weight-base * 7;
 				z-index: 90;
 
