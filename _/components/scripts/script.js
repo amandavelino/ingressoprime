@@ -81,6 +81,16 @@ $(function(){
 		  return false;
 		});
 
+		//links 
+
+		var $linkFilter = $('.filter-button-group a');
+		$linkFilter.click(function(){
+
+			$linkFilter.removeClass('ativo');
+			$(this).addClass('ativo');
+
+		});//
+
 	//quando carregar a página
 		var posicao = $(window).scrollTop();
 
