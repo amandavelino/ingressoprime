@@ -17,7 +17,7 @@
 								<h3>Garota White Recife</h3>
 								<h4>Recife - PE | Sab 27. Ago às 22:00</h4>						
 							</header>
-							<p>A Festa conceito de Wesley Safadão, o GAROTA WHITE rodou o Brasil e chegará pela primeira vez em RECIFE! O evento será realizado dia 27 de Agosto na maior casa de shows da América Latina, CLASSIC HALL. O Anfitrião da festa WESLEY SAFADÃO é a principal atração e se destaca pelo palco 360º que garante visão privilegiada de qualquer ponto do local. Com todo público e o próprio Wesley vestidos de branco, a festa aposta na cor também na produção...</p>
+							<p>A Festa conceito de Wesley Safadão, o GAROTA WHITE rodou o Brasil e chegará pela primeira vez em RECIFE! O evento será realizado dia 27 de Agosto na maior casa de shows da América Latina, CLASSIC HALL...</p>
 							<span class="btn btn-buy btn-banner" title="Comprar Ingresso">Comprar Ingresso</span>
 						</div><!-- /infoEvento -->
 					</a>
@@ -59,7 +59,7 @@
 								<h3>Aerosmith Style 2016</h3>
 								<h4>Recife - PE | Sex 21. Out às 22:00</h4>						
 							</header>
-							<p>Com turnê marcada para rodar o Brasil em outubro deste ano, os fãs da banda Aerosmith já podem comprar seu ingresso. O grupo norte-americano desembarca no Recife no dia 21 de outubro, no Classic Hall, em Olinda. Os fãs irão relembrar grandes sucessos da carreira como Mama Kin, What It Takes, Last Child, Back in the Saddle, I Don’t Want to Miss a Thing, Janie’s Got a Gun’, Sweet Emotion, Walk This Way e Dream On. A banda está há 46 anos na estrada e desembarca no Recife pela sexta vez, prometendo agitar os admiradores.</p>
+							<p>Com turnê marcada para rodar o Brasil em outubro deste ano, os fãs da banda Aerosmith já podem comprar seu ingresso. O grupo norte-americano desembarca no Recife no dia 21 de outubro, no Classic Hall, em Olinda...</p>
 							<span class="btn btn-buy btn-banner" title="Comprar Ingresso">Comprar Ingresso</span>
 						</div><!-- /infoEvento -->
 					</a>

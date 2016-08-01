@@ -11,7 +11,10 @@
                 <ul>
                     <li><a class="no-refresh <?php if($url === $home){ echo 'active'; } ?>" href="<?php if($url === $home){ echo '#banner'; }else { echo 'index.php'; } ?>" data-name="banner" >Home</a></li>
                     <?php /* <li><a class="no-refresh <?php if($url === $eventos){ echo 'active'; } ?>" href="<?php if($url === $home){ echo '#eventos'; }else { echo 'eventos.php'; } ?>" data-name="eventos" >Eventos</a></li> */ ?>
-                    <li><a class="<?php if($url === $pedidos){ echo 'active'; } ?>" href="meus-pedidos.php">Meus Pedidos</a></li>
+                    <li><a class="meusPedidos <?php if($url === $pedidos){ echo 'active'; } ?>" href="meus-pedidos.php">Meus Pedidos</a></li>
+                    <li class="item-hidden"><a class="imprimirVoucher" href="#">Imprimir Voucher</a></li>
+                    <li class="item-hidden"><a class="filtrarEventos" href="#">Localizar por Estado</a></li>
+                    <li class="item-hidden"><a class="procurarEventos" href="#">Procurar Eventos</a></li>
                     <?php  /* <li><a class="<?php if($url === $politica){ echo 'active'; } ?>" href="nossa-politica.php">Nossa Política</a></li> */ ?>
                     <li><a class="<?php if($url === $informacoes){ echo 'active'; } ?>" href="informacoes.php">Informações</a></li>
                     <li><a class="<?php if($url === $contato){ echo 'active'; } ?>" href="fale-conosco.php">Fale Conosco</a></li>

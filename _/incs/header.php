@@ -15,13 +15,13 @@
 	        	
 	        	<nav>
 	        		<ul>
-	        			<li><a class="no-refresh <?php if($url === $home){ echo 'active'; } ?>" href="<?php if($url === $home){ echo '#banner'; }else { echo 'index.php'; } ?>" data-name="banner" >Home</a></li>
+	        			<li class="item-menu-lft"><a class="no-refresh <?php if($url === $home){ echo 'active'; } ?>" href="<?php if($url === $home){ echo '#banner'; }else { echo 'index.php'; } ?>" data-name="banner" >Home</a></li>
 	        			<?php /* <li><a class="no-refresh <?php if($url === $eventos){ echo 'active'; } ?>" href="<?php if($url === $home){ echo '#eventos'; }else { echo 'eventos.php'; } ?>" data-name="eventos" >Eventos</a></li> */ ?>
-	        			<li><a id="meusPedidos" class="<?php if($url === $pedidos){ echo 'active'; } ?>" href="meus-pedidos.php">Meus Pedidos</a></li>
+	        			<li class="item-menu-lft"><a id="meusPedidos" class="meusPedidos <?php if($url === $pedidos){ echo 'active'; } ?>" href="meus-pedidos.php">Meus Pedidos</a></li>
 	        			<?php  /* <li><a class="<?php if($url === $politica){ echo 'active'; } ?>" href="nossa-politica.php">Nossa Política</a></li> 
 	        			<li><a class="<?php if($url === $duvidas){ echo 'active'; } ?>" href="duvidas.php">Dúvidas</a></li>*/ ?>
-	        			<li><a class="<?php if($url === $informacoes){ echo 'active'; } ?>" href="informacoes.php">Informações</a></li>
-	        			<li><a class="<?php if($url === $contato){ echo 'active'; } ?>" href="fale-conosco.php">Fale Conosco</a></li>
+	        			<li class="item-menu-rgt"><a class="<?php if($url === $contato){ echo 'active'; } ?>" href="fale-conosco.php">Fale Conosco</a></li>
+	        			<li class="item-menu-rgt"><a class="<?php if($url === $informacoes){ echo 'active'; } ?>" href="informacoes.php">Informações</a></li>
 	        		</ul>
 	        	</nav>
 

@@ -4,12 +4,18 @@
 {
 	background: $color-main-light;
 	text-align: center;
-	margin: 120px 0 10px;
+	margin: 145px 0 10px;
 	padding: 0;
+
+   	//768px
+	@include breakpoint(max-width ($tablet-port - 1)) {
+		display: none;
+   	}   
 
 	.destaque
 	{
-		width: 21%;
+		//width: 21%;
+		width: 190px;
 		padding: 2% 1.5% 1%;
 		display: inline-block;
 

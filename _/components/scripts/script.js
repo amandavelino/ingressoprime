@@ -134,7 +134,7 @@ $(function(){
 
 	    //procurar eventos
 
-			$("#procurarEventos").click(function(){
+			$(".procurarEventos").click(function(){
 				showDiv("#procurar");
 				return false;
 			});    
@@ -146,7 +146,7 @@ $(function(){
 
 	    //filtrar eventos
 
-			$("#filtrarEventos").click(function(){
+			$(".filtrarEventos").click(function(){
 				showDiv("#filtrar");
 				//$('body').css({"overflow":"hidden"});  
 				return false;
@@ -159,7 +159,7 @@ $(function(){
 
 	    //imprimir voucher
 
-			$("#imprimirVoucher, #meusPedidos").click(function(){
+			$(".imprimirVoucher, .meusPedidos").click(function(){
 
 				//$('body').css({"overflow":"hidden"});
 				$("#imprimir").css({"z-index":9999}).fadeIn('fast', function(){

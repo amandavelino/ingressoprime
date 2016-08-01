@@ -5,7 +5,7 @@
 	height: 70px;
 	position: relative;
 	//padding: ($padding / 2) 0;
-	padding: 50px 0 0;
+	padding: 50px 0 15px;
 	position: fixed;
 	top: 0;
 	z-index: 99;
@@ -18,7 +18,14 @@
 
 	#logo
 	{
-		@include span(2 of 12);
+		//@include span(2 of 12);
+		width: 150px;
+		height: 100%;
+		position: absolute;
+		margin-left: 0;
+		margin-right: 0;
+		left: 50%;
+		margin-left: -105px;
 
 		// 1200px
 		@include breakpoint(max-width $desktop) {
@@ -48,17 +55,28 @@
 	   	// 320px
 		@include breakpoint(max-width ($mobile-port - 1)) {
 			//@include span(7 of 12);
-	   	} 	   		   		   	
+	   	} 	
+
+	   	a 
+	   	{
+	   		display: block;
+	   		width: 100%;
+	   		height: 100%;
+	   	}   		   		   	
 
 		img 
 		{
 			@include transition(all, .5s, ease-out, 0s);
+			margin: 5px 0;
 		}
 	}
 
 	#menu 
 	{
-		@include span(10 of 12);
+		//@include span(10 of 12);
+		width: 640px;
+		overflow: hidden;
+		margin: 0 auto;
 
 		// 1200px
 		@include breakpoint(max-width $desktop) {
@@ -72,7 +90,7 @@
 
 		nav 
 		{
-			float: right;
+			//float: right;
 		}
 
 		li 
@@ -82,8 +100,18 @@
 
 			&.last-child
 			{
-				padding-right: 0;
+				//padding-right: 0;
 			}
+
+			&.item-menu-lft
+			{
+				float: left;
+			}
+
+			&.item-menu-rgt
+			{
+				float: right;
+			}			
 
 		}
 
