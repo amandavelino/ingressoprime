@@ -66,8 +66,8 @@ $(function(){
 		$grid.isotope({
 			itemSelector: '.grid-item',
 			layoutMode: 'fitRows',
-			percentPosition: true,
-			resize: true,
+			//percentPosition: true,
+			resize: false,
 			fitRows: {
 			  gutter: 5
 			}  
