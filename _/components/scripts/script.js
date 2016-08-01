@@ -61,16 +61,17 @@ $(function(){
 
 	//filtro eventos
 
-		$grid = $('.grid');
+		var $grid = $('.grid');
 
 		$grid.isotope({
 			itemSelector: '.grid-item',
 			layoutMode: 'fitRows',
 			percentPosition: true,
+			resize: true,
 			fitRows: {
 			  gutter: 5
 			}  
-		});
+		});	
 
 		// filter items on button click
 		$('.filter-button-group').on( 'click', 'a', function() {

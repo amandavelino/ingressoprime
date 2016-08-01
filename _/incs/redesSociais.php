@@ -6,8 +6,8 @@
 			<a href="javascript: void();" title="Entre em contato">
 				<img src="imgs/icons/phone.png" width="20" border="0">
 				<h3>(81) 3039.4082</h3>
-				<img src="imgs/icons/email.png" width="20" border="0">
-				<p>contato@ingressoprime.com.br</p>
+				<img class="mg-extra" src="imgs/icons/email.png" width="20" border="0">
+				<p>contato@ingressoprime.com</p>
 			</a>
 		</div><!-- /destaque -->	
 

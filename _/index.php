@@ -24,6 +24,7 @@
             <?php include("incs/destaques.php"); ?>
             <?php include("incs/banner.php"); ?> 
             <?php include("incs/eventos.php"); ?>
+            <?php include("incs/footer.php"); ?>
         </div>
         <script src="js/all.js" type="text/javascript" charset="utf-8" async defer></script>
     </body>

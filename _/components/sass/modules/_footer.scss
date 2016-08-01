@@ -8,85 +8,157 @@ footer,
 
 	.info 
 	{
-		@include span(12 of 12);
+
 		position: relative;
 		text-align: left;
-		margin-top: 5px;
 
-	   	//959px
-		@include breakpoint(max-width ($tablet-land - 1)) {
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
 			text-align: center;
-		}    
+	   	} 
 
-		//768px
-		@include breakpoint(max-width ($tablet-port - 1)) {}    
-
-		.itemContato
-		{
-			//include span(3 of 6);
-			overflow: hidden;
-			margin-left: 10px;
-			text-align: center;
-			//float: left;
-
-			//1200px
-			@include breakpoint(max-width $desktop) {
-				//@include span(6 of 6);
-				margin-bottom: .3em;
-		   	}
-
-		   	//959px
-			@include breakpoint(max-width ($tablet-port - 1)) {
-				margin-left: 0;
-			}      		
-
-		}
-
-		a 
-		{
-			display: block;
-			width: 100%;
-			height: 100%;
-		}
-
-		.icon 
+		&.lft-footer 
 		{
 			float: left;
-			width: 20px;
-			margin-top: 3px;
-			margin-left: 10px;
-			display: none;
+			width: 40%;
 		}
 
-		.infoTxt
+		&.rgt-footer 
 		{
-			//float: left;
-			//margin-left: .5em;
+			float: right;
+			width: 60%;
+		}	
 
-			h4 
-			{
-				color: $color-main;
-				font-family: $font-menu;
-				font-size: $font-size-base * 1.2;
-				text-transform: uppercase;
-				font-weight: $font-weight-base * 7;
-				line-height: 1.2em;
+		&.lft-footer,
+		&.rgt-footer 
+		{
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				width: 100%;
+				float: none;
+				overflow: hidden;
+		   	} 
+		}
+
+	}
+
+	.icones-blindado
+	{
+		.icn 
+		{
+			background: url("../imgs/icones_cartoes.png") no-repeat 0 0;
+			float: left;
+			width: 100px;
+			height: 70px;
+			text-indent: -9999px;
+			margin-right: 10px;
+
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				float: none;
 				display: inline-block;
-			}
-
-			p 
-			{
-				color: $color-main;
-				font-family: $font-menu;
-				font-size: $font-size-base * 1.4;
-				font-weight: $font-weight-base * 4;
-				line-height: 1.2em;
-				margin: 0;
-				display: inline-block;
-
-			}
+		   	} 
 
 		}
+
+		.icn-b01
+		{
+			background-position: 1px 1px;
+		}
+
+		.icn-b02
+		{
+			background-position: -129px 1px;
+		}
+
+		.icn-b03
+		{
+			background-position: -261px 1px;
+			width: 135px;
+			margin-right: 0;
+		}		
+
+	}
+
+	.icones-cartoes
+	{
+	
+		margin: 25px 0;
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
+			text-align: center;
+	   	} 
+
+		.icn 
+		{
+			background: url("../imgs/icones_cartoes.png") no-repeat -557px -35px;
+			float: right;
+			width: 56px;
+			height: 40px;
+			text-indent: -9999px;
+
+		   	//768px
+			@include breakpoint(max-width ($tablet-port - 1)) {
+				float: none;
+				display: inline-block;
+		   	} 
+			
+		}
+
+		.icn-01
+		{
+			background-position: -557px -32px;
+		}
+
+		.icn-02
+		{
+			background-position: -617px -32px;
+		}
+
+		.icn-03
+		{
+			background-position: -677px -32px;
+		}
+
+		.icn-04
+		{
+			background-position: -737px -32px;
+		}		
+
+		.icn-05
+		{
+			background-position: -795px -32px;
+		}	
+
+		.icn-06
+		{
+			background-position: -861px -32px;
+		}	
+
+		.icn-07
+		{
+			background-position: -919px -32px;
+		}	
+
+		.icn-08
+		{
+			background-position: -968px -32px;
+		}	
+
+		.icn-09
+		{
+			background-position: -1018px -32px;
+		}	
+
+		.icn-10
+		{
+			background-position: -1076px -32px;
+		}	
+
+		.icn-11
+		{
+			background-position: -1139px -32px;
+		}																				
 
 	}
 
