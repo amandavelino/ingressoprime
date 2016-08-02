@@ -5,7 +5,7 @@
 
         <div class="a-group filter-button-group">
           <ul>
-              <li><a data-filter="*" href="#">Todos os eventos</a></li>
+              <li><a class="ativo" data-filter="*" href="#">Todos os eventos</a></li>
               <li><a data-filter=".em-breve" href="#">Em Breve</a></li>
               <li><a data-filter=".Reveillon" href="#">Reveillon</a></li>
               <li><a data-filter=".verão" href="#">Verão</a></li>
