@@ -7,7 +7,7 @@
     border-bottom: 1px dashed #ddd;
     padding: 5px 0;
     height: 19px;
-    overflow: hidden;
+    //overflow: hidden;
     @include opacity(1);
     @include transition(all, .5s, ease-out, 0s);
 
@@ -30,6 +30,11 @@
 			text-transform: uppercase;
 			position: relative;		
 			margin: 0 10px;	
+
+			@include breakpoint(max-width ($mobile-land - 1)) {
+				margin: 0;
+			}
+
 		}
 
 		p 
@@ -58,6 +63,10 @@
 		padding: 0 20px;
 		text-align: right;
 		height: 40px;
+
+		@include breakpoint(max-width ($mobile-land - 1)) {
+			padding: 0;
+		}
 
 		li 
 		{
