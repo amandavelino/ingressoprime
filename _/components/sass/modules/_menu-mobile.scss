@@ -12,7 +12,8 @@
 	z-index: 99;
 	display: none;
 
-	@include breakpoint (max-width ($tablet-land - 1)){
+	//vai aparecer o menu e desaperecer os itens: imprimir voucher e procurar
+	@include breakpoint (max-width $desktop){
 		display: block;
 	}
 
@@ -74,8 +75,8 @@
    			{
    				display: none;
 
-			   	//768px
-				@include breakpoint(max-width ($tablet-port - 1)) {
+			   	//desktop
+				@include breakpoint (max-width $desktop){
 					display: block;
 			   	}      		
 

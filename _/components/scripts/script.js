@@ -1,39 +1,51 @@
 
-					function mascara(o,f){
-					    v_obj=o
-					    v_fun=f
-					    setTimeout("execmascara()",1)
-					}
-					function execmascara(){
-					    v_obj.value=v_fun(v_obj.value)
-					}
+function esconderMenuMobile(){
 
-					function id( el ){
-						return document.getElementById( el );
-					}
+	//se a tela for maior que 1200 remover classe menu-mobile
+	var body = $('body','html');
+	if(body.width() > 1183){
+		$('body').removeClass('open');
+	}//
 
-					//mascara cpf
-					function mcpf(v){  //MASCARA PARA CPF
+}
 
-					    v=v.replace(/\D/g,"")                    //Remove tudo o que não é dígito
-					    v=v.replace(/(\d{3})(\d)/,"$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
-					    v=v.replace(/(\d{3})(\d)/,"$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
-					                                             //de novo (para o segundo bloco de números)
-					    v=v.replace(/(\d{3})(\d{1,2})$/,"$1-$2") //Coloca um hífen entre o terceiro e o quarto dígitos
-					    return v;
-					}			
-							
-					//adiciona mascara de data
-					function mdata(v){ // MASCARA PARA DATA 
+function mascara(o,f){
+    v_obj=o
+    v_fun=f
+    setTimeout("execmascara()",1)
+}
+function execmascara(){
+    v_obj.value=v_fun(v_obj.value)
+}
 
-					    v=v.replace(/\D/g,"");                    //Remove tudo o que não é dígito
-					    v=v.replace(/(\d{2})(\d)/,"$1/$2");
-					    v=v.replace(/(\d{2})(\d)/,"$1/$2");
-					    return v;
-					}
+function id( el ){
+	return document.getElementById( el );
+}
 
+//mascara cpf
+function mcpf(v){  //MASCARA PARA CPF
+
+    v=v.replace(/\D/g,"")                    //Remove tudo o que não é dígito
+    v=v.replace(/(\d{3})(\d)/,"$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
+    v=v.replace(/(\d{3})(\d)/,"$1.$2")       //Coloca um ponto entre o terceiro e o quarto dígitos
+                                             //de novo (para o segundo bloco de números)
+    v=v.replace(/(\d{3})(\d{1,2})$/,"$1-$2") //Coloca um hífen entre o terceiro e o quarto dígitos
+    return v;
+}			
+		
+//adiciona mascara de data
+function mdata(v){ // MASCARA PARA DATA 
+
+    v=v.replace(/\D/g,"");                    //Remove tudo o que não é dígito
+    v=v.replace(/(\d{2})(\d)/,"$1/$2");
+    v=v.replace(/(\d{2})(\d)/,"$1/$2");
+    return v;
+}
 
 $(function(){
+
+	//se a tela for maior que 1200 remover classe menu-mobile
+	esconderMenuMobile();
 
 	//new WOW().init();
 
@@ -203,9 +215,15 @@ $(function(){
 		}else{
 			$('.wrap').removeClass('scrolled');
 		}	
+
+		//removendo barra rede social
+		if(posicao > 30){
+			$('.wrap').addClass('removeRedeSocial');
+		}else{
+			$('.wrap').removeClass('removeRedeSocial');
+		}			
 		
 		//Navegacao menu
-
 			var home		= $("#banner").offset().top,
 				sessao 		= '';
 
@@ -216,3 +234,8 @@ $(function(){
 	});//onscroll
 
 });//
+
+$(window).resize(function(){
+	//se a tela for maior que 1200 remover classe menu-mobile
+	esconderMenuMobile();
+});

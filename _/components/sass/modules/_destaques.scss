@@ -98,3 +98,90 @@
 	}
 
 }
+
+#destaques-menu
+{
+
+	position: absolute;
+	right: 0;
+	top: 20px;
+
+   	//1200px
+	@include breakpoint (max-width $desktop){
+		display: none;
+   	}   
+
+	.destaque
+	{
+		width: 180px;
+		padding: 0;
+		margin-right: 20px;
+		display: inline-block;
+
+		&:last-child 
+		{
+			margin-right: 0;
+		}
+
+	   	//960px
+		@include breakpoint(max-width ($tablet-land - 1)) {
+			padding: 1.5% 0 1%;
+	   	} 
+
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
+			width: 100%;
+	   	}   
+
+	   	@include breakpoint(max-width ($mobile-land - 1)) {
+	   		width: 100%;
+	   	}	   		   	
+
+		a 
+		{
+			display: block;
+			width: 100%;
+			height: 100%;
+
+			&:hover 
+			{
+				h3 
+				{
+					color: $color-menu-hover;
+				}
+			}
+
+		}
+
+		img 
+		{
+			float: left;
+			margin-right: 10px;
+			margin-top: -5px;
+
+		}
+
+		h3 
+		{
+			color: #222; //verde icon: #30a592, #555, $color-hover-red
+			font-family: $font-main;
+			font-size: $font-size-base * 1.2;
+			font-weight: $font-weight-base * 8;
+			text-transform: uppercase;
+			line-height: 1em;
+			text-align: left;
+			@include transition(all, .5s, ease-out, 0s);
+
+		}	
+
+		p 
+		{
+			font-size: $font-size-base * 1.4;
+			color: $color-eventos-h4;
+			font-weight: $font-weight-base * 5;
+			text-align: left;
+
+		}					
+
+	}	
+}

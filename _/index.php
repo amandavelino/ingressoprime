@@ -21,7 +21,7 @@
         <div class="wrap">      
             <?php include("incs/ie.php"); ?>
             <?php include("incs/header.php"); ?>
-            <?php include("incs/destaques.php"); ?>
+            <?php //include("incs/destaques.php"); ?>
             <?php include("incs/banner.php"); ?> 
             <?php include("incs/eventos.php"); ?>
             <?php include("incs/footer.php"); ?>

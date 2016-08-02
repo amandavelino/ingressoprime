@@ -7,6 +7,9 @@
     border-bottom: 1px dashed #ddd;
     padding: 5px 0;
     height: 19px;
+    overflow: hidden;
+    @include opacity(1);
+    @include transition(all, .5s, ease-out, 0s);
 
 	.contato-info
 	{
@@ -84,4 +87,15 @@
 		}
 	}
 
+}
+
+.removeRedeSocial
+{
+	#redesSociais 
+	{
+		@include opacity(0);
+		//height: 0px;
+	    border-bottom: 1px dashed #fff;
+	    //padding: 0;
+	}
 }

@@ -8,7 +8,7 @@
     width: 100%;
     float: left;
     padding: 0;
-    padding-top: 0;
+    padding-top: 145px;
 
    	//768px
 	@include breakpoint(max-width ($tablet-port - 1)) {
@@ -44,8 +44,8 @@
 			left: -50px;
 			background: url("../imgs/prev.png") no-repeat 0 0;
 
-			//< 1200px
-			@include breakpoint(max-width $desktop) {
+			//< 1300px
+			@include breakpoint(max-width 1300px) {
 				left: 20px;
 		   	}
 
@@ -57,7 +57,7 @@
 			background: url("../imgs/next.png") no-repeat 0 0;
 
 			//< 1200px
-			@include breakpoint(max-width $desktop) {
+			@include breakpoint(max-width 1300px) {
 				right: 20px;
 		   	}
 
