@@ -71,24 +71,29 @@ $(function(){
 			navText: ["&laquo; anterior "," próximo &raquo;"]
 		});	
 
-	//filtro eventos
+	//filtro eventos - isotope
 
-		var $grid = $('.grid');
+	var $grid = $('.grid');
+	$grid.isotope({
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows',
+		percentPosition: true,
+		resize: true,
+		isResizeBound: false,
+		fitRows: {
+		  gutter: 5
+		}
+	});	
 
-		$grid.isotope({
-			itemSelector: '.grid-item',
-			layoutMode: 'fitRows',
-			percentPosition: true,
-			resize: true,
-			fitRows: {
-			  gutter: 5
-			}  
-		});	
+		$('#eventos').on( 'change', 'select', function() {
+			 var optionSelected = $("option:selected", this);
+			 var filterValue = $( optionSelected ).attr('data-filter');
+			 $grid.isotope({ filter: filterValue });
+		});
 
-		// filter items on button click
+		//filter items on button click
 		$('.filter-button-group').on( 'click', 'a', function() {
 		  var filterValue = $(this).attr('data-filter');
-		  // use filter function if value matches
 		  $grid.isotope({ filter: filterValue });
 		  return false;
 		});
@@ -238,4 +243,15 @@ $(function(){
 $(window).resize(function(){
 	//se a tela for maior que 1200 remover classe menu-mobile
 	esconderMenuMobile();
+	var $grid = $('.grid');
+	$grid.isotope({
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows',
+		percentPosition: true,
+		resize: true,
+		isResizeBound: false,
+		fitRows: {
+		  gutter: 5
+		}
+	});		
 });

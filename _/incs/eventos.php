@@ -3,12 +3,22 @@
     <!-- <div class="container-full"> -->
     <div class="container">
 
-        <div class="a-group filter-button-group">
+        <select id="filtrar-eventos" name="filtrar-eventos">
+            <option value="todos-os-eventos" data-filter="*"><a class="ativo" href="#">Todos os eventos</a></option>
+            <option value="em-Breve" data-filter=".em-breve"><a href="#">Em Breve</a></option>
+            <option value="reveillon" data-filter=".reveillon"><a href="#">Reveillon</a></option>
+            <option value="verao" data-filter=".verao"><a href="#">Verão</a></option>
+            <option value="carnaval" data-filter=".carnaval" ><a href="#">Carnaval</a></option>
+            <option value="excursoes" data-filter=".excursoes"><a href="#">Excursões</a></option>
+            <option value="wesley-safadao" data-filter=".wesley-safadao"><a href="#">Wesley Safadão</a></option>
+        </select>
+
+        <div class="a-group filter-button-group" style="display:none;">
           <ul>
               <li><a class="ativo" data-filter="*" href="#">Todos os eventos</a></li>
               <li><a data-filter=".em-breve" href="#">Em Breve</a></li>
-              <li><a data-filter=".Reveillon" href="#">Reveillon</a></li>
-              <li><a data-filter=".verão" href="#">Verão</a></li>
+              <li><a data-filter=".reveillon" href="#">Reveillon</a></li>
+              <li><a data-filter=".verao" href="#">Verão</a></li>
               <li><a data-filter=".carnaval" href="#">Carnaval</a></li>
               <li><a data-filter=".excursoes" href="#">Excursões</a></li>
               <li><a data-filter=".wesley-safadao" href="#">Wesley Safadão</a></li>
@@ -42,7 +52,7 @@
                 
             </div><!--/grid-item -->        
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -93,7 +103,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -168,7 +178,7 @@
                 
             </div><!--/grid-item -->
 
-            <div class="grid-item">
+            <div class="grid-item reveillon">
 
                 <div class="evento">
                 
