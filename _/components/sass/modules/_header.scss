@@ -11,6 +11,11 @@
 	z-index: 99;
 	@include transition(all, .5s, ease-out, 0s);
 
+   	// 480px
+	@include breakpoint(max-width ($mobile-land - 1)) {
+		padding: 15px;
+   	} 
+
 	.container 
 	{
 		position: relative;
