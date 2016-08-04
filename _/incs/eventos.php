@@ -13,7 +13,7 @@
             <option value="wesley-safadao" data-filter=".wesley-safadao"><a href="#">Wesley Safadão</a></option>
         </select>
 
-        <div class="a-group filter-button-group" style="display:none;">
+        <div class="a-group filter-button-group">
           <ul>
               <li><a class="ativo" data-filter="*" href="#">Todos os eventos</a></li>
               <li><a data-filter=".em-breve" href="#">Em Breve</a></li>

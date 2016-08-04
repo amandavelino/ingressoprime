@@ -34,10 +34,47 @@
 		margin: 0 -2.5px;
 	}
 
+	#filtrar-eventos
+	{
+		display: none;
+		outline: none;
+	   	width: 100%;
+	   	background: #fff url("../imgs/arrow-down-select.png") no-repeat 95% 50%;
+		text-transform: uppercase;
+		color: $color-menu-hover;
+		font-size: $font-size-base * 1.1;
+		font-weight: $font-weight-base * 8;
+		letter-spacing: 1px;
+		padding: 15px 10px;
+		margin-bottom: 4px;
+		position: relative;
+		@include appearance(none);
+
+		option 
+		{
+			color: $color-main;
+			font-size: $font-size-base * 1.1;
+			font-weight: $font-weight-base * 8;
+			letter-spacing: 1px;
+			padding: 15px 10px;
+			position: relative;			
+		}
+
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
+			display: block;
+	   	}  		
+	}
+
 	.filter-button-group
 	{
 		background: transparent;//$bg-header
 		margin-bottom: 5px;
+
+	   	//768px
+		@include breakpoint(max-width ($tablet-port - 1)) {
+			display: none;
+	   	}  
 
 		ul
 		{
