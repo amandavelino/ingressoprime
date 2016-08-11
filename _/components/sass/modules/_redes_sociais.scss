@@ -63,6 +63,7 @@
 		padding: 0 20px;
 		text-align: right;
 		height: 40px;
+		float: right;
 
 		@include breakpoint(max-width ($tablet-port - 1)) {
 			padding: 0 10px;
@@ -94,6 +95,33 @@
 			}
 
 		}
+	}
+
+	.doacoes
+	{
+		font-size: $font-size-base * 1.3;
+		color: #555;
+		font-weight: 500;
+		line-height: 1.5em;	
+		margin-left: 5px;	
+		float: right;		
+
+		strong 
+		{
+			font-weight: 700;
+		}
+
+		@include breakpoint(max-width 960px) {
+			position: absolute; 
+    		top: 30px; 
+    		right: 0; 
+    		float: none;
+		}
+
+		@include breakpoint(max-width 500px) {
+			display: none;
+		}
+
 	}
 
 }

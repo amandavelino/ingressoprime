@@ -285,17 +285,18 @@
 
 			//960px
 			@include breakpoint(max-width ($tablet-land - 1)) {
-				padding: 3em;
+				//padding: 3em;
+				display: none;
 			} 
 
 			//600px
 			@include breakpoint(max-width 600px) {
-				padding: 3em;
+				//padding: 3em;
 			} 			
 
 		   	//480px
 		   	@include breakpoint(max-width ($mobile-land - 1)) {
-		   		padding: 3em;
+		   		//padding: 3em;
 		   	}
 
 			p 
