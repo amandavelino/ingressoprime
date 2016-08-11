@@ -112,13 +112,6 @@
 		}
 
 		@include breakpoint(max-width 960px) {
-			position: absolute; 
-    		top: 30px; 
-    		right: 0; 
-    		float: none;
-		}
-
-		@include breakpoint(max-width 500px) {
 			display: none;
 		}
 

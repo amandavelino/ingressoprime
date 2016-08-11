@@ -128,7 +128,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -205,7 +205,7 @@
                 
             </div><!--/grid-item -->  
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -230,7 +230,7 @@
                 
             </div><!--/grid-item -->  
 
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -255,7 +255,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -279,57 +279,8 @@
                 </div><!-- /evento -->  
                 
             </div><!--/grid-item -->                        
-
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/5--seco-em-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item --> 
-
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/aerosmith-em-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->                                                                               
-            <div class="grid-item">
+                                                                               
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -354,7 +305,7 @@
                 
             </div><!--/grid-item -->                                                 
 
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -377,34 +328,9 @@
 
                 </div><!-- /evento -->  
                 
-            </div><!--/grid-item -->  
+            </div><!--/grid-item -->    
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/balada-sertaneja-em-caruaru-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->  
-
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -429,7 +355,7 @@
                 
             </div><!--/grid-item -->  
 
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -454,7 +380,7 @@
                 
             </div><!--/grid-item -->                                      
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -477,34 +403,9 @@
 
                 </div><!-- /evento -->  
                 
-            </div><!--/grid-item -->   
+            </div><!--/grid-item -->                
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/capital-inicial-em-caruaru-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->               
-
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -529,7 +430,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -554,7 +455,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -579,7 +480,7 @@
                 
             </div><!--/grid-item -->   
 
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -604,7 +505,7 @@
                 
             </div><!--/grid-item -->                                       
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -629,57 +530,7 @@
                 
             </div><!--/grid-item -->  
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/festeja-recife-2016-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->  
-
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/festeja-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->  
-
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -704,7 +555,7 @@
                 
             </div><!--/grid-item -->   
             
-            <div class="grid-item">
+            <div class="grid-item wesley-safadao">
 
                 <div class="evento">
                 
@@ -729,7 +580,7 @@
                 
             </div><!--/grid-item -->                          
 
-            <div class="grid-item">
+            <div class="grid-item wesley-safadao">
 
                 <div class="evento">
                 
@@ -754,7 +605,7 @@
                 
             </div><!--/grid-item -->  
 
-            <div class="grid-item">
+            <div class="grid-item reveillon wesley-safadao">
 
                 <div class="evento">
                 
@@ -777,34 +628,9 @@
 
                 </div><!-- /evento -->  
                 
-            </div><!--/grid-item -->  
+            </div><!--/grid-item -->            
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/garota-white-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item -->              
-
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -829,7 +655,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item verao">
 
                 <div class="evento">
                 
@@ -854,7 +680,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -879,7 +705,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -904,32 +730,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/jota-quest-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item --> 
-
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -954,7 +755,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -979,7 +780,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -1004,32 +805,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/o-rappa-em-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item --> 
-
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
@@ -1054,7 +830,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -1079,7 +855,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item reveillon">
 
                 <div class="evento">
                 
@@ -1104,7 +880,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item excursoes">
 
                 <div class="evento">
                 
@@ -1129,7 +905,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
+            <div class="grid-item carnaval">
 
                 <div class="evento">
                 
@@ -1154,57 +930,7 @@
                 
             </div><!--/grid-item --> 
 
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/tnt-party-recife-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item --> 
-
-            <div class="grid-item">
-
-                <div class="evento">
-                
-                    <article>
-                        <a href="#">          
-                            <figure>
-                                <div class="overlay">
-                                    <p>...</p>
-                                    <span class="btn btn-buy" title="Comprar Ingresso">Comprar Ingresso</span>
-                                </div><!-- /overlay --> 
-                                <img src="imgs/banner/vaauejada-surubim-vendas-ingresso-prime.jpg" border="0" alt="Festeja Recife">festeja-recife-2016-vendas-ingresso-prime.jpg
-                                <figcaption>
-                                        <h3>5 Seco</h3>
-                                        <h4>Sáb 22 Out 2016</h4>   
-                                        <h4>Recife - PE</h4>                            
-                                    </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-
-                </div><!-- /evento -->  
-                
-            </div><!--/grid-item --> 
-
-            <div class="grid-item">
+            <div class="grid-item em-breve">
 
                 <div class="evento">
                 
