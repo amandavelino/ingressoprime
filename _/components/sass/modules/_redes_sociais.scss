@@ -106,9 +106,23 @@
 		margin-left: 5px;	
 		float: right;		
 
+		img 
+		{
+			display: inline-block;
+			float: left;
+			margin: -4px 6px 0 0;
+		}
+
 		strong 
 		{
 			font-weight: 700;
+			color: #999;
+			text-transform: uppercase;
+		}
+
+		span 
+		{
+			color: $color-menu-hover;
 		}
 
 		@include breakpoint(max-width 960px) {

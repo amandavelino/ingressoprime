@@ -38,7 +38,7 @@
 			</li>
 		</ul>	
 
-		<p class="doacoes"><strong>Hanking (Doações HCP - PE):</strong> R$ 200,00/mês, R$ 1.000,00/anual</p>	
+		<p class="doacoes"><img src="imgs/hcp-doe.png" border="0"><strong>Doações:</strong> <span>R$ 200,00</span> agosto/2016 | <span>R$ 1.000,00</span> anual</p>	
 
 	</div><!-- /container -->
 
