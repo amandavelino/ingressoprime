@@ -38,7 +38,10 @@
 			</li>
 		</ul>	
 
-		<p class="doacoes"><img src="imgs/hcp-doe.png" border="0"><strong>Doações:</strong> <span>R$ 200,00</span> mensal <span>R$ 1.000,00</span> anual</p>	
+		<p class="doacoes">Parceiro <span class="btn-doacao">Acompanhe as doações</span> <img src="imgs/hcp.png" border="0"></p>
+		<div id="result-doacoes">
+			<p><span>R$ 200,00</span> mensal <span>R$ 1.000,00</span> anual</p>
+		</div><!-- result-doacoes -->		
 
 	</div><!-- /container -->
 

@@ -44,6 +44,17 @@ function mdata(v){ // MASCARA PARA DATA
 
 $(function(){
 
+	//acompanhe as doacoes
+	$('.btn-doacao').click(function(){
+
+		if(!$(this).closest('.container').find('#result-doacoes').hasClass('hover-doacoes')){
+			$(this).closest('.container').find('#result-doacoes').addClass('hover-doacoes');
+		}else{
+			$(this).closest('.container').find('#result-doacoes').removeClass('hover-doacoes');
+		}
+
+	});
+
 	//se a tela for maior que 1200 remover classe menu-mobile
 	esconderMenuMobile();
 
@@ -212,6 +223,9 @@ $(function(){
 
 	$(window).scroll(function(){
 
+		//removendo acompanhe as doacoes
+		$('.btn-doacao').closest('.container').find('#result-doacoes').removeClass('hover-doacoes');
+
 		//posicao do scroll
 		var posicao = $(window).scrollTop();
 
@@ -241,6 +255,10 @@ $(function(){
 });//
 
 $(window).resize(function(){
+
+	//removendo acompanhe as doacoes
+	$('.btn-doacao').closest('.container').find('#result-doacoes').removeClass('hover-doacoes');
+	
 	//se a tela for maior que 1200 remover classe menu-mobile
 	esconderMenuMobile();
 	var $grid = $('.grid');
