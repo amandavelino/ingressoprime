@@ -99,10 +99,10 @@
 
 	.doacoes
 	{
-		font-size: $font-size-base * 1.3;
+		font-size: $font-size-base * 1.1;
 		color: #999;
 		font-weight: 600;
-		line-height: 1.5em;	
+		line-height: 2em;	
 		margin-left: 5px;	
 		float: right;
 		text-transform: uppercase;
@@ -112,7 +112,7 @@
 		{
 			display: inline-block;
 			float: right;
-			margin: -5px 6px 0 0;
+			margin: -5px 0 0 6px;
 		}
 
 		strong 
@@ -129,15 +129,14 @@
 
 		.btn-doacao
 		{
-			background: #ccc;
 			border-radius: 20px;
-			color: #fff;
+			color: $color-menu-hover;
 			cursor: pointer;
 			float: right;
 			padding: 2px 10px;
 			text-transform: uppercase;
 			font-weight: 600;
-			font-size: 11px;
+			font-size: $font-size-base * 1.1;
 			margin: -2px 0 0;
 		}
 
